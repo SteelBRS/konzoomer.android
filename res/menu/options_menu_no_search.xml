@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/option_settings" android:title="@string/settings" android:icon="@android:drawable/ic_menu_preferences"/>
+    <item android:id="@+id/option_about" android:title="@string/about_konzoomer" android:icon="@drawable/ic_launcher_konzoomer"/>
+</menu>

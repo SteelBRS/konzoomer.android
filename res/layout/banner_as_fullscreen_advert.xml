@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:myapp="http://schemas.android.com/apk/res/com.konzoomer"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+    <com.admob.android.ads.AdView
+            android:id="@+id/ad"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            myapp:backgroundColor="#000000"
+            myapp:primaryTextColor="#FFFFFF"
+            myapp:secondaryTextColor="#CCCCCC"/>
+    <LinearLayout
+            android:gravity="right"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <Button
+                android:id="@+id/close_ad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/close_advert"/>
+    </LinearLayout>
+</LinearLayout>

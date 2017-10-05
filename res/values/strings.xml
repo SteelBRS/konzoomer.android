@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">konzoomer</string>
+    <string name="search_label">Offers</string>
+    <string name="search_hint">Search offers</string>
+    <string name="search_settings_description">Offers, unit sizes and brands</string>
+    <string name="close_advert">Close advert</string> 
+
+    <string name="settings">Settings</string>
+    <string name="about_konzoomer">About konzoomer</string>
+    <string name="version">Version: %s</string>
+    <string name="description">Grocery offers on the mobile.\nSee more on konzoomer.com</string>
+    <string name="maximum_distance">Max. distance:</string>
+    <string name="stores_within_distance">Stores within distance:</string>
+    <string name="unsupported_version">Unsupported version</string>
+    <string name="upgrade">Upgrade</string>
+
+    <string name="tab_favorites">Favorites</string>
+    <string name="tab_offers">Offers</string>
+    <string name="tab_map">Map</string>
+    <string name="label_search">Search:</string>
+    <string name="label_category">Category:</string>
+    <string name="choose_category">Choose category</string>
+
+    <string name="brands_label">Brands:</string>
+    <string name="button_add_to_favorites">Add to Favorites</string>
+    <string name="button_remove_from_favorites">Remove from Favorites</string>
+    <string name="button_back">Back</string>
+
+    <string name="button_navigation">Navigation</string>
+    <string name="opening_hours_label">Opening Hours:</string>
+    <string name="monday_label">Monday:</string>
+    <string name="tuesday_label">Tuesday:</string>
+    <string name="wednesday_label">Wednesday:</string>
+    <string name="thursday_label">Thursday:</string>
+    <string name="friday_label">Friday:</string>
+    <string name="saturday_label">Saturday:</string>
+    <string name="sunday_label">Sunday:</string>
+    <string name="closed">closed</string>
+    <string name="contact_person_label">Contact Person:</string>
+    <string name="telephone_label">Telephone:</string>
+    <string name="telefax_label">Telefax:</string>
+    <string name="email_label">Email:</string>
+    <string name="website_label">Website:</string>
+    
+    <string name="cat_all">All</string>
+    <string name="cat_other">Other</string>
+
+    <string name="cat_bakery">Bakery</string>
+    <string name="cat_beef">Beef</string>
+    <string name="cat_beer">Beer</string>
+    <string name="cat_beverages">Beverages</string>
+    <string name="cat_bread">Bread</string>
+    <string name="cat_bread_n_buns">Bread &amp; Buns</string>
+    <string name="cat_butter_n_fat">Butter &amp; Fat</string>
+    <string name="cat_candy">Candy</string>
+    <string name="cat_candy_n_snacks">Candy &amp; Snacks</string>
+    <string name="cat_cereals">Cereals</string>
+    <string name="cat_cheese">Cheese</string>
+    <string name="cat_cleaning">Cleaning</string>
+    <string name="cat_coffee_tea_n_cocoa">Coffee, Tea &amp; Cocoa</string>
+    <string name="cat_condiments_n_sauces">Condiments &amp; Sauces</string>
+    <string name="cat_cooked_meats_n_salads">Cooked Meats &amp; Salads</string>
+    <string name="cat_cooked_meats_sliced">Cooked Meats (Sliced)</string>
+    <string name="cat_cooked_meats_whole_pieces">Cooked Meats (Whole Pieces)</string>
+    <string name="cat_dairy">Dairy</string>
+    <string name="cat_deodorants_n_roll_on">Deodorants &amp; Roll On</string>
+    <string name="cat_dishwashers_n_washing_up">Dishwashers &amp; Washing Up</string>
+    <string name="cat_dried_fruit_n_nuts">Dried Fruit &amp; Nuts</string>
+    <string name="cat_eggs">Eggs</string>
+    <string name="cat_fish_n_seafood">Fish &amp; Seafood</string>
+    <string name="cat_frozen">Frozen</string>
+    <string name="cat_fruits">Fruits</string>
+    <string name="cat_fruits_n_vegetables">Fruits &amp; Vegetables</string>
+    <string name="cat_haircare">Haircare</string>
+    <string name="cat_health_n_beauty">Health &amp; Beauty</string>
+    <string name="cat_household">Household</string>
+    <string name="cat_ice_cream_n_desserts">Ice Cream &amp; Desserts</string>
+    <string name="cat_juice">Juice</string>
+    <string name="cat_laundry">Laundry</string>
+    <string name="cat_lightbulbs_n_batteries">Lightbulbs &amp; Batteries</string>
+    <string name="cat_meals_n_pizza">Meals &amp; Pizza</string>
+    <string name="cat_meat_fish_n_poultry">Meat, Fish &amp; Poultry</string>
+    <string name="cat_milk_n_yoghurt">Milk &amp; Yoghurt</string>
+    <string name="cat_oral_care">Oral Care</string>
+    <string name="cat_paper_n_bags">Paper &amp; Bags</string>
+    <string name="cat_pate">Paté</string>
+    <string name="cat_pork">Pork</string>
+    <string name="cat_poultry">Poultry</string>
+    <string name="cat_processed_food">Processed Food</string>
+    <string name="cat_rye_bread">Rye Bread</string>
+    <string name="cat_salads">Salads</string>
+    <string name="cat_sausages">Sausages</string>
+    <string name="cat_shaving">Shaving</string>
+    <string name="cat_skincare">Skincare</string>
+    <string name="cat_snacks_n_dip">Snacks &amp; Dip</string>
+    <string name="cat_soft_drinks">Soft Drinks</string>
+    <string name="cat_soups">Soups</string>
+    <string name="cat_spirits">Spirits</string>
+    <string name="cat_sugar_n_flour">Sugar &amp; Flour</string>
+    <string name="cat_tinned_food">Tinned Food</string>
+    <string name="cat_vegetables">Vegetables</string>
+    <string name="cat_vegetables_n_french_fries">Vegetables &amp; French Fries</string>
+    <string name="cat_water">Water</string>
+    <string name="cat_wine">Wine</string>
+</resources>

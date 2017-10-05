@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.konzoomer"
+          android:versionCode="170"
+          android:versionName="1.0.6 build 170">
+    <application android:icon="@drawable/ic_launcher_konzoomer" android:label="@string/app_label"
+                 android:name="com.konzoomer.Konzoomer"
+                 android:theme="@android:style/Theme.NoTitleBar" android:debuggable="true">
+        <activity android:name=".KonzoomerActivity" android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".FavoritesActivity" android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+            <meta-data android:name="android.app.searchable"
+                       android:resource="@xml/searchable_favorites"/>
+        </activity>
+        <activity android:name=".OffersActivity" android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+            <meta-data android:name="android.app.searchable"
+                       android:resource="@xml/searchable"/>
+        </activity>
+        <activity android:name=".map.StoresMapActivity"/>
+
+        <activity android:name=".OfferDetailActivity" android:launchMode="singleTop"/>
+
+        <activity android:name=".StoreActivity" android:launchMode="singleTop"/>
+        <activity android:name=".StoreDetailActivity"/>
+
+        <!-- Provides search suggestions for offers -->
+        <provider android:name=".OfferProvider"
+                  android:authorities="com.konzoomer.OfferProvider"/>
+
+        <uses-library android:name="com.google.android.maps"/>
+
+        <!-- The application's publisher ID assigned by AdMob -->
+        <meta-data android:value="a14d41b17090e79" android:name="ADMOB_INTERSTITIAL_PUBLISHER_ID"/>
+        <meta-data android:value="a14d43d20b45e74" android:name="ADMOB_PUBLISHER_ID"/>
+
+        <!-- AdMobActivity definition -->
+        <activity android:name="com.admob.android.ads.AdMobActivity"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:configChanges="orientation|keyboard|keyboardHidden"/>
+        <activity android:name=".BannerAsFullscreenAdvertActivity"/>
+
+        <!-- Track Market installs -->
+        <receiver android:name="com.admob.android.ads.analytics.InstallReceiver"
+                  android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+
+        <meta-data android:value="true" android:name="ADMOB_ALLOW_LOCATION_FOR_ADS"/>
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="7"/>
+</manifest>

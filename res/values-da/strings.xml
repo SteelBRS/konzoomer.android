@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">konzoomer</string>
+    <string name="search_label">Tilbud</string>
+    <string name="search_hint">Søg tilbud</string>
+    <string name="search_settings_description">Tilbud, enhedsstørrelser og varemærker</string>
+    <string name="close_advert">Luk reklame</string>
+
+    <string name="settings">Indstillinger</string>
+    <string name="about_konzoomer">Om konzoomer</string>
+    <string name="version">Version: %s</string>
+    <string name="description">Dagligvaretilbud på mobilen.\nSe mere på konzoomer.com</string>
+    <string name="maximum_distance">Maks. afstand:</string>
+    <string name="stores_within_distance">Butikker indenfor afstand:</string>
+    <string name="unsupported_version">Ikke-understøttet version</string>
+    <string name="upgrade">Opgradér</string>
+
+    <string name="tab_favorites">Favoritter</string>
+    <string name="tab_offers">Tilbud</string>
+    <string name="tab_map">Kort</string>
+    <string name="label_search">Søgning:</string>
+    <string name="label_category">Kategori:</string>
+    <string name="choose_category">Vælg kategori</string>
+
+    <string name="brands_label">Varemærker:</string>
+    <string name="button_add_to_favorites">Føj til Favoritter</string>
+    <string name="button_remove_from_favorites">Fjern fra Favoritter</string>
+    <string name="button_back">Tilbage</string>
+
+    <string name="button_navigation">Navigation</string>
+    <string name="opening_hours_label">Åbningstider:</string>
+    <string name="monday_label">Mandag:</string>
+    <string name="tuesday_label">Tirsdag:</string>
+    <string name="wednesday_label">Onsdag:</string>
+    <string name="thursday_label">Torsdag:</string>
+    <string name="friday_label">Fredag:</string>
+    <string name="saturday_label">Lørdag:</string>
+    <string name="sunday_label">Søndag:</string>
+    <string name="closed">lukket</string>
+    <string name="contact_person_label">Kontaktperson:</string>
+    <string name="telephone_label">Telefon:</string>
+    <string name="telefax_label">Telefax:</string>
+    <string name="email_label">Email:</string>
+    <string name="website_label">Website:</string>
+
+    <string name="cat_all">Alle</string>
+    <string name="cat_other">Andet</string>
+
+    <string name="cat_bakery">Bageri</string>
+    <string name="cat_beef">Oksekød</string>
+    <string name="cat_beer">Øl</string>
+    <string name="cat_beverages">Drikkevarer</string>
+    <string name="cat_bread">Brød</string>
+    <string name="cat_bread_n_buns">Brød &amp; Boller</string>
+    <string name="cat_butter_n_fat">Smør &amp; Fedtstof</string>
+    <string name="cat_candy">Slik</string>
+    <string name="cat_candy_n_snacks">Slik &amp; Chips</string>
+    <string name="cat_cereals">Morgenmad</string>
+    <string name="cat_cheese">Ost</string>
+    <string name="cat_cleaning">Rengøring</string>
+    <string name="cat_coffee_tea_n_cocoa">Kaffe, Te &amp; Kakao</string>
+    <string name="cat_condiments_n_sauces">Krydderier &amp; Saucer</string>
+    <string name="cat_cooked_meats_n_salads">Pålæg &amp; Salater</string>
+    <string name="cat_cooked_meats_sliced">Pålæg (Skiver)</string>
+    <string name="cat_cooked_meats_whole_pieces">Pålæg (Hele stykker)</string>
+    <string name="cat_dairy">Mejeri</string>
+    <string name="cat_deodorants_n_roll_on">Deodoranter &amp; Roll On</string>
+    <string name="cat_dishwashers_n_washing_up">Opvask</string>
+    <string name="cat_dried_fruit_n_nuts">Tørret Frugt &amp; Nødder</string>
+    <string name="cat_eggs">Æg</string>
+    <string name="cat_fish_n_seafood">Fisk &amp; Skaldyr</string>
+    <string name="cat_frozen">Frost</string>
+    <string name="cat_fruits">Frugt</string>
+    <string name="cat_fruits_n_vegetables">Frugt &amp; Grønt</string>
+    <string name="cat_haircare">Hårpleje</string>
+    <string name="cat_health_n_beauty">Krop &amp; Velvære</string>
+    <string name="cat_household">Husholdning</string>
+    <string name="cat_ice_cream_n_desserts">Is &amp; Desserter</string>
+    <string name="cat_juice">Juice</string>
+    <string name="cat_laundry">Vask</string>
+    <string name="cat_lightbulbs_n_batteries">Elpærer &amp; Batterier</string>
+    <string name="cat_meals_n_pizza">Færdigretter &amp; Pizza</string>
+    <string name="cat_meat_fish_n_poultry">Kød, Fisk &amp; Fjerkræ</string>
+    <string name="cat_milk_n_yoghurt">Mælk &amp; Yoghurt</string>
+    <string name="cat_oral_care">Tandpleje</string>
+    <string name="cat_paper_n_bags">Papir &amp; Poser</string>
+    <string name="cat_pate">Leverpostej &amp; Paté</string>
+    <string name="cat_pork">Svinekød</string>
+    <string name="cat_poultry">Fjerkræ</string>
+    <string name="cat_processed_food">Kolonial</string>
+    <string name="cat_rye_bread">Rugbrød</string>
+    <string name="cat_salads">Salater</string>
+    <string name="cat_sausages">Pølser</string>
+    <string name="cat_shaving">Barberartikler</string>
+    <string name="cat_skincare">Hudpleje</string>
+    <string name="cat_snacks_n_dip">Snacks, Chips &amp; Dip</string>
+    <string name="cat_soft_drinks">Sodavand</string>
+    <string name="cat_soups">Supper</string>
+    <string name="cat_spirits">Spiritus</string>
+    <string name="cat_sugar_n_flour">Sukker &amp; Mel</string>
+    <string name="cat_tinned_food">Konserves</string>
+    <string name="cat_vegetables">Grøntsager</string>
+    <string name="cat_vegetables_n_french_fries">Grøntsager &amp; Pomfritter</string>
+    <string name="cat_water">Vand</string>
+    <string name="cat_wine">Vin</string>
+</resources>

@@ -1,0 +1,5 @@
+# Set Locale da_DK
+setprop persist.sys.language da;setprop persist.sys.country DK;stop;sleep 5;start
+
+# Open database
+sqlite3 /data/data/com.konzoomer/databases/konzoomer
